@@ -6,14 +6,14 @@ const FlagChoices = props => {
   let options = props.options || [];
   const { handleChange, handleSubmit } = props;
   let inputs = options.map(option => (
-    <lable key={option.id}>
+    <label key={option.id}>
       <input type="radio"
              value={ option.id }
              checked={ option.checked }
              onChange={ handleChange }
              name='flag-choice' />
       { option.name }
-    </lable>
+    </label>
   ));
 
   return (
