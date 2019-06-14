@@ -1,6 +1,6 @@
 # Guess The Flag
 
-A simple guessing game where user have to guess the correct country name of the flag displayed. Built with React.
+A simple and fun guessing game where user have to guess the correct country name of the flag displayed. Play and test your knowledge of the flags of the world!
 
 This app was built using React framework and [REST Countries](https://restcountries.eu/) API.
 
